@@ -36,7 +36,7 @@ body {
 
 .cell.o::after,
 .board.o .cell:not(.x):not(.o):hover::after {
-  background-color: white;
+  background-color: #121212;
 }
 
 .board.x .cell:not(.x):not(.o):hover::before,
