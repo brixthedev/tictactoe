@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
 
 *,
 *::before,
 *::after {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   box-sizing: border-box;
 }
 
@@ -14,6 +14,7 @@
 
 body {
   margin: 0;
+  background-color: #121212;
 }
 
 .board {
@@ -88,7 +89,7 @@ body {
 .cell.x::after,
 .board.x .cell:not(.x):not(.o):hover::before,
 .board.x .cell:not(.x):not(.o):hover::after {
-  content: '';
+  content: "";
   position: absolute;
   width: calc(var(--mark-size) * 0.15);
   height: var(--mark-size);
@@ -108,7 +109,7 @@ body {
 .cell.o::after,
 .board.o .cell:not(.x):not(.o):hover::before,
 .board.o .cell:not(.x):not(.o):hover::after {
-  content: '';
+  content: "";
   position: absolute;
   border-radius: 50%;
 }
